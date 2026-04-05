@@ -14,3 +14,12 @@ The outputs are purely digital and can be used to drive pumps, turn on lights, o
 
 ## Screen and buttons
 The 0.96" 128x64 OLED display can be used to change setpoints for anything, view variables live, to restart the program, or start/stop hosting the programming interface, and show the ip for the programming interface.
+
+## Software
+The ES-PLC32 uses [OpenPLC](https://autonomylogic.com/) to program in ladder logic (and other languages) and to upload the program to the ES-PLC32. 
+
+![The OpenPLC Editor](./OpenPLCEditor.png)
+
+It has inbuilt support for the ESP32-S3 by default and can upload code to it perfectly fine with no issues.
+
+![Boards selection in OpenPLC Editor](./boards.png)
